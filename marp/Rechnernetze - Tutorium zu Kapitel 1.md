@@ -1,10 +1,9 @@
 ---
 theme: uncover #uncover #default #gaia
-class: invert
 paginate: true
 marp: true
 headingDivider: true
-footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee, mv068@hdm-stuttgart.de, 2021"
+footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 ---
 
 # Rechnernetze - Tutorium
@@ -12,7 +11,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee, 
 # zu Kapitel 1
 
 Link zu den Folien :arrow_down:
-https://github.com/blauwiggle/Rechnernetze-1-Tutorium
+https://github.com/Uggah/Rechnernetze-Tutorium
 
 ---
 
@@ -469,7 +468,7 @@ https://www.layer2communications.com/about-us/
 
 # Weitere Fragen?
 
-Bitte per E-Mail an [cr099@hdm-stuttgart.de](cr099@hdm-stuttgart.de), [mv068@hdm-stuttgart.de](mailto:mv068@hdm-stuttgart.de) oder auf GitHub direkt. Wir beantworten die dann im kommenden Meeting ausführlich.
+Bitte per E-Mail an [kk172@hdm-stuttgart.de](mailto:kk172@hdm-stuttgart.de), [lg088@hdm-stuttgart.de](mailto:lg088@hdm-stuttgart.de). Wir beantworten die dann im kommenden Meeting ausführlich.
 
 # Bis nächste Woche :smile:
 

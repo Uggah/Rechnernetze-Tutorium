@@ -1,10 +1,9 @@
 ---
 marp: true
 theme: default #uncover #gaia #default
-class: invert
 paginate: true
 headingDivider: true
-footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee, mv068@hdm-stuttgart.de, 2020"
+footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 ---
 
 # Rechnernetze - Tutorium
@@ -302,7 +301,7 @@ Bestimmen Sie die Subnetz-ID und die Broadcast-Adresse für das Subnetz, zu dem 
 
 # Weitere Fragen?
 
-Bitte per E-Mail an [mv068@hdm-stuttgart.de](mailto:mv068@hdm-stuttgart.de) oder auf GitHub direkt.
+Bitte per E-Mail an [kk172@hdm-stuttgart.de](mailto:kk172@hdm-stuttgart.de), [lg088@hdm-stuttgart.de](mailto:lg088@hdm-stuttgart.de). Wir beantworten die dann im kommenden Meeting ausführlich.
 
 # Bis nächste Woche :smile:
 

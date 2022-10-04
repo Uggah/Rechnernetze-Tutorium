@@ -1,10 +1,9 @@
 ---
 theme: uncover #uncover #default #gaia
-class: invert
 paginate: true
 marp: true
 headingDivider: true
-footer: "HdM Stuttgart - Rechnernetze - Tutorium Michael Vanhee, mv068@hdm-stuttgart.de, 2021"
+footer: "HdM Stuttgart - Rechnernetze - Tutorium Kay Knöpfle und Lucca Greschner"
 ---
 
 # Allgemeines
@@ -13,8 +12,8 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium Michael Vanhee, mv068@hdm-stutt
 - Keine Noten
 - 0 ECTS
 - E-Mail
-  - Cassian - cr099
-  - Michi - mv068
+  - Kay: kk172
+  - Lucca: lg088
 
 ---
 
@@ -22,7 +21,11 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium Michael Vanhee, mv068@hdm-stutt
 
 # Slides
 
-Die Folien gibt es auf [GitHub](https://github.com/blauwiggle/Rechnernetze-1-Tutorium) zum herunterladen. Du weißt nicht wie das geht? Genau jetzt ist der richtige Zeitpunkt gekommen, um dich mit git vertraut zu machen :octocat:. Schau mal hier, es ist wirklich einfach: [git - Der einfache Einstieg - eine einfache Anleitung, um git zu lernen. Kein Schnick-Schnack ;)](https://rogerdudler.github.io/git-guide/index.de.html)
+Die Slides basieren auf den Folien des ehemaligen Rechnernetze-Tutors Michael Vanhee ([GitHub](https://github.com/blauwiggle/Rechnernetze-1-Tutorium))
+
+Die Folien gibt es auf [GitHub](https://github.com/Uggah/Rechnernetze-Tutorium) zum herunterladen. 
+
+Du weißt nicht wie das geht? Schau mal hier, es ist wirklich einfach: [git - Der einfache Einstieg - eine einfache Anleitung, um git zu lernen. Kein Schnick-Schnack ;)](https://rogerdudler.github.io/git-guide/index.de.html)
 
 ---
 

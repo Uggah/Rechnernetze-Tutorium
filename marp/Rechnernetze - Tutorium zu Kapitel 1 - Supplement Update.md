@@ -1,10 +1,9 @@
 ---
 theme: uncover #uncover #default #gaia
-class: invert
 paginate: true
 marp: true
 headingDivider: true
-footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee, mv068@hdm-stuttgart.de, 2021"
+footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 ---
 
 # Rechnernetze - Tutorium
@@ -14,7 +13,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee, 
     Supplement Update
 
 Link zu den Folien :arrow_down:
-https://github.com/blauwiggle/Rechnernetze-1-Tutorium
+https://github.com/Uggah/Rechnernetze-Tutorium
 
 ---
 
