@@ -214,7 +214,7 @@ Doch was heißt das jetzt genau?
 
 ---
 
-## :exclamation: Mit welcher **_Bandbreite_** kann man dann bei 500 Meter bzw. 2000 Meter **_Faserlänge_** übertragen, wenn die Bandbreite pro Kilometer 1.200 MHz beträgt?
+## :exclamation: Mit welcher **_Bandbreite_** kann man dann bei 500 Meter bzw. 2000 Meter **_Faserlänge_** übertragen, wenn das Bandbreitenlängenprodukt 1.200 MHz*km beträgt?
 
 ---
 
