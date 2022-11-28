@@ -10,6 +10,10 @@ Hier findest du alle Materialien für das Rechnernetze-Tutorium im Wintersemeste
 
 Zum Download finden sich hier auch alle Folien (PDF und HTML) als ZIP-Archiv: [GitHub Releases](https://github.com/Uggah/Rechnernetze-Tutorium/releases).
 
+### GitHub Pages
+
+Außerdem könnt ihr die Folien einzeln auf den GitHub Pages herunterladen: [GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/).
+
 ### Git
 
 Du weißt nicht wie Git funktioniert? Schau mal hier, es ist wirklich einfach: [Deutsch](https://rogerdudler.github.io/git-guide/index.de.html) | [Englisch](https://rogerdudler.github.io/git-guide/index.html)
@@ -29,6 +33,10 @@ Here, you'll find all materials user in the Rechnernetze-Tutorium in the winter 
 ### Download
 
 You can download all slides as a zip archive here: [GitHub Releases](https://github.com/Uggah/Rechnernetze-Tutorium/releases).
+
+### GitHub Pages
+
+To separately download the slides please have a look at our GitHub Pages: [GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ### Git
 
