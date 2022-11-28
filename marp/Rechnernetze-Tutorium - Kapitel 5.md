@@ -13,7 +13,7 @@ inlineSVG: true
 # zu Kapitel 5
 
 Link zu den Folien :arrow_down:
-https://github.com/blauwiggle/Rechnernetze-1-Tutorium
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 

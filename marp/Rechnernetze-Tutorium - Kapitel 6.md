@@ -12,7 +12,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 # zu Kapitel 6
 
 Link zu den Folien :arrow_down:
-https://github.com/blauwiggle/Rechnernetze-1-Tutorium
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 
@@ -406,10 +406,6 @@ Lass uns mal eine Tabelle füllen.
 
 ---
 
-# :exclamation: :sunny: geht auf
-
----
-
 ![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/06_flusssteuerung.png?raw=true)
 
 ---
@@ -440,9 +436,9 @@ Lass uns mal eine Tabelle füllen.
 
 ---
 
-![bg right:70% fit](https://sun.iwu.edu/~jhaefner/CS390/Lecture16/ip_header.gif)
+![bg right:70% fit](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ipv4_header.svg/1920px-Ipv4_header.svg.png)
 
-Bild Quelle https://sun.iwu.edu/~jhaefner/CS390/Lecture16/lec16.htm
+Bild Quelle https://commons.wikimedia.org/wiki/File:Ipv4_header.svg
 
 ---
 

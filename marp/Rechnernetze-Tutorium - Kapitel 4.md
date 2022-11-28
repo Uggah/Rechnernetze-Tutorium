@@ -11,7 +11,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 # zu Kapitel 4
 
 Link zu den Folien :arrow_down:
-https://github.com/blauwiggle/Rechnernetze-1-Tutorium
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 
@@ -266,7 +266,7 @@ Dabei wird Switch Port A and einen weiteren Port B gespiegelt. Dabei ist Port Mi
 
 # Spanning Tree Protocol
 
-![bg right:50% 90%](https://www.networxsecurity.de/wp-content/uploads/2019/03/Rstp.jpeg)
+![bg right:50% 90%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/04_STP.png?raw=true)
 
 > Bild Quelle: https://www.networxsecurity.de/?page_id=4128
 

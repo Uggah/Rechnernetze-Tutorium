@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 theme: default #uncover #gaia #default
 paginate: true
 headingDivider: true
@@ -11,7 +11,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 # zu Kapitel 2
 
 Link zu den Folien :arrow_down:
-https://github.com/Uggah/Rechnernetze-Tutorium
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 
@@ -300,10 +300,6 @@ Von Deadlyhappen - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/i
 # 6. Ergänze den Typ des optischen Kabels und die Form der Lichtimpulse am Ausgang.
 
 [Quelle Bilder elektronik-kompendium.de](https://www.elektronik-kompendium.de/sites/kom/0301282.htm)
-
----
-
-# :exclamation: Nicht erschrecken, gleich geht die :sunny: auf :smile:
 
 ---
 

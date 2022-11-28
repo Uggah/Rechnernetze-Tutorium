@@ -13,7 +13,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
     Supplement Update
 
 Link zu den Folien :arrow_down:
-https://github.com/Uggah/Rechnernetze-Tutorium
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 

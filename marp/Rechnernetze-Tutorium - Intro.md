@@ -31,7 +31,7 @@ Du weißt nicht wie das geht? Schau mal hier, es ist wirklich einfach: [git - De
 
 # Slides als HTML/PDFs
 
-https://blauwiggle.github.io/Rechnernetze-1-Tutorium/
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 

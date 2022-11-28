@@ -8,10 +8,10 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium | Copyright © Michael Vanhee"
 
 # Rechnernetze - Tutorium
 
-# zu Vernissage SS 2020
+# zu Vernissage
 
 Link zu den Folien :arrow_down:
-https://github.com/blauwiggle/Rechnernetze-1-Tutorium
+[GitHub Pages](https://uggah.github.io/Rechnernetze-Tutorium/)
 
 ---
 
