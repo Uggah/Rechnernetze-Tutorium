@@ -8,12 +8,12 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium Kay Knöpfle und Lucca Greschne
 
 # Allgemeines
 
-- Freiwillig
-- Keine Noten
-- 0 ECTS
 - E-Mail
   - Kay: kk172
   - Lucca: lg088
+- Cloud Ordner mit allen Links und den Aufzeichnungen
+  - ![](./images/00_qrcode.png)
+  - [https://cloud.mi.hdm-stuttgart.de/s/qxytkn78fcTZ5wQ](https://cloud.mi.hdm-stuttgart.de/s/qxytkn78fcTZ5wQ)
 
 ---
 
