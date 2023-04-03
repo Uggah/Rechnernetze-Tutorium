@@ -42,6 +42,8 @@ Link zu den Folien :arrow_down:
 
 # 1. Welche Vor- und Nachteile haben die Netzstrukturen Bus, Ring und Stern?
 
+![](./images/01_NetzwerkTopologien.png)
+
 ---
 
 # Bus
@@ -126,6 +128,11 @@ Link zu den Folien :arrow_down:
 
 # 2. Welche Variante (Paket- oder Leitungsvermittlung) ist für welche Verkehrsarten geeignet? Welche Variante wird sich warum zukünftig durchsetzen?
 
+## Wie unterscheiden sich Paket-/Leitungsvermittelte Netze?
+## Für welche Art von Verbindung sind beide Varianten jeweils geeignet?
+## Was wird sich durchsetzen / hat sich durchgesetzt?
+
+
 ---
 
 # Paketvermittelt
@@ -173,8 +180,12 @@ Wieso dann?
 ## 1. Die Begriffe LAN, MAN, WAN
 
 ## 2. Welche Technologien wo bevorzugt eingesetzt werden
+- Ethernet
+- Wireless
+- SDH/SONET
+- DWDM
 
-## 3. Warum ein Schichtenmodell eingeführt wurde.
+## 3. Warum ein Schichtenmodell (OSI) eingeführt wurde.
 
 ---
 
@@ -287,7 +298,7 @@ Zum Beispiel IP.
 2. Datenübertragung
 3. Verbindungsabbau
 
-Zum Beispiel telefonieren.
+Zum Beispiel POTS (analoge Telefonie).
 
 ---
 
@@ -350,12 +361,7 @@ Beispiel:
 - TV
 
 ---
-
-# 3. Erläutere ...
-
-## 3. Warum ein Schichtenmodell eingeführt wurde.
-
-# 7. Wozu benötigt man das OSI-Modell? Beschreibe die Funktion der Schichten. Welches sind die Unterschiede zwischen dem OSI- und dem TCP/IP-Modell?
+# 7.1 Warum wurde das OSI-Schichtenmodell eingeführt.
 
 ---
 
@@ -368,6 +374,22 @@ Beispiel:
 - Grundlage für Weiterentwicklungen und Normen
 
 Dabei stellt jede Schicht der übergeordneten Schicht seine Dienste zur Verfügung und nimmt die Dienste der untergeordneten Schicht in Anspruch.
+
+---
+
+# 7.2 Welche Schichten gibt es?
+
+---
+
+# 7.3 Wofür sind die Schichten zuständig, welche Protokolle kommen zum Einsatz?
+
+- 7 - Application
+- 6 - Presentation
+- 5 - Session
+- 4 - Transport
+- 3 - Network
+- 2 - Data Link
+- 1 - Physical
 
 ---
 
@@ -404,6 +426,10 @@ Dabei stellt jede Schicht der übergeordneten Schicht seine Dienste zur Verfügu
 | 3 - Vermittlung (Network)      | IP, ICMP           | Router                  |
 | 2 - Sicherung (Data Link)      | Ethernet           | Switch, Bridge          |
 | 1 - Bitübertragung (Physical)  | :x:                | Repeater, Hub           |
+
+---
+
+# 7.4 Wie unterscheidet sich das OSI-Modell vom TCP/IP-Modell?
 
 ---
 
