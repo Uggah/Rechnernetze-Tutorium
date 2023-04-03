@@ -42,7 +42,7 @@ Link zu den Folien :arrow_down:
 
 # 1. Welche Vor- und Nachteile haben die Netzstrukturen Bus, Ring und Stern?
 
-![](./images/01_NetzwerkTopologien.png)
+![](https://github.com/Uggah/Rechnernetze-Tutorium/raw/master/marp/images/01_NetzwerkTopologien.png)
 
 ---
 

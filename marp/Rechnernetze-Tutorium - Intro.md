@@ -12,7 +12,7 @@ footer: "HdM Stuttgart - Rechnernetze - Tutorium Kay Knöpfle und Lucca Greschne
   - Kay: kk172
   - Lucca: lg088
 - Cloud Ordner mit allen Links und den Aufzeichnungen
-  - ![](./images/00_qrcode.png)
+  ![bg right](https://github.com/Uggah/Rechnernetze-Tutorium/raw/master/marp/images/00_qrcode.png)
   - [https://cloud.mi.hdm-stuttgart.de/s/qxytkn78fcTZ5wQ](https://cloud.mi.hdm-stuttgart.de/s/qxytkn78fcTZ5wQ)
 
 ---
