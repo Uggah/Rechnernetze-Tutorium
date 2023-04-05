@@ -52,7 +52,7 @@ Link zu den Folien :arrow_down:
 
 Das Paket ist für den nachfolgenden Übertragungsweg zu lang, daher wird fragmentiert.
 
-![bg right:50% auto](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/06_fragmentierung.png?raw=true)
+![bg right:50% auto](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/06_fragmentierung.png?raw=true)
 
 Dabei übernimmt jedes Fragment den IP Header.
 
@@ -161,7 +161,7 @@ Ein kompletter Umstieg bedeutet hohe Kosten.
 
 ---
 
-![bg left:70% fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/06_mtu_mss.jpg?raw=true)
+![bg left:70% fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/06_mtu_mss.jpg?raw=true)
 
 > ###### Bild Quelle: https://www.elektronik-kompendium.de/sites/net/0812211.htm
 
@@ -406,7 +406,7 @@ Lass uns mal eine Tabelle füllen.
 
 ---
 
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/06_flusssteuerung.png?raw=true)
+![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/06_flusssteuerung.png?raw=true)
 
 ---
 
@@ -414,7 +414,7 @@ Lass uns mal eine Tabelle füllen.
 
 ---
 
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/06_diagramm.png?raw=true)
+![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/06_diagramm.png?raw=true)
 
 ---
 

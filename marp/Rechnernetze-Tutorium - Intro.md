@@ -27,6 +27,8 @@ Die Folien gibt es auf [GitHub](https://github.com/Uggah/Rechnernetze-Tutorium) 
 
 Du weißt nicht wie das geht? Schau mal hier, es ist wirklich einfach: [git - Der einfache Einstieg - eine einfache Anleitung, um git zu lernen. Kein Schnick-Schnack ;)](https://rogerdudler.github.io/git-guide/index.de.html)
 
+![bg right](https://github.com/Uggah/Rechnernetze-Tutorium/raw/master/marp/images/00_qrcode_folien.png)
+
 ---
 
 # Slides als HTML/PDFs
@@ -38,8 +40,8 @@ Du weißt nicht wie das geht? Schau mal hier, es ist wirklich einfach: [git - De
 # tl;dr
 
 1. Terminal öffnen
-2. > `git clone https://github.com/blauwiggle/Rechnernetze-1-Tutorium.git`
-3. > `cd Rechnernetze-1-Tutorium`
+2. > `git clone https://github.com/Uggah/Rechnernetze-Tutorium.git`
+3. > `cd Rechnernetze-Tutorium`
 4. > macOS: `open .`, Linux `xdg-open .`
 
 Updates kann man sich mit `git pull` holen.

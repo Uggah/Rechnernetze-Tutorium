@@ -104,18 +104,6 @@ Es gibt etliche Organisationen, die an der Entwicklung von Standards beteilt sin
 
 ---
 
-![bg right:40% 90%](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Birch_plywood.jpg/800px-Birch_plywood.jpg)
-
-Als Multiplex-Platten werden Furnier-Sperrholzplatten bezeichnet, welche mehr als 6,5 mm dick sind und aus mindestens fünf gleich starken Furnierlagen bestehen. Ist die Platte beidseitig mit Phenolharz beschichtet, so wird sie als Siebdruckplatte bezeichnet.
-
-By Bystander - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=5863761
-
----
-
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/03_dafuq.jpg?raw=true)
-
----
-
 # Multiplexverfahren sind Methoden zur Signal- und Nachrichtenübertragung. Dabei werden mehrere Signale gebündelt und übertragen.
 
 ---
@@ -197,19 +185,9 @@ Wenn mehrere Stationen gleichzeitig senden, erkennen sie die Kollision
 
 ---
 
-# :congratulations: (aka congratulations) der BEB Algorithmus ..
-
-## .. ist nicht Prüfungsrelevant dieses Semester :raised_hands:
-
----
-
 # Was jedoch wichtig ist, ist wie sich Distanz, Paketlänge und Bitrate gegenseitig beeinflussen.
 
 ## Hast du eine Idee, was es damit aufsich hat?
-
----
-
-
 
 ---
 

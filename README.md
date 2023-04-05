@@ -21,7 +21,7 @@ Du weißt nicht wie Git funktioniert? Schau mal hier, es ist wirklich einfach: [
 ### tl;dr
 
 1. Terminal öffnen
-2. `git clone https://github.com/blauwiggle/Rechnernetze-1-Tutorium.git`
+2. `git clone https://github.com/Uggah/Rechnernetze-Tutorium.git`
 3. `cd Rechnernetze-1-Tutorium`
 4. Linux: `xdg-open .`
    macOS: `open .`
@@ -45,7 +45,7 @@ You don't know how it works? Take a look, it's really easy: [Englisch](https://r
 ### tl;dr
 
 1. Open the terminal
-2. `git clone https://github.com/blauwiggle/Rechnernetze-1-Tutorium.git`
+2. `git clone https://github.com/Uggah/Rechnernetze-Tutorium.git`
 3. `cd Rechnernetze-1-Tutorium`
 4. Linux: `xdg-open .`
    macOS: `open .`

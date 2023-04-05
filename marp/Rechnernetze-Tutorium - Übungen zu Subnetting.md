@@ -35,11 +35,11 @@ $A-Router-C$ funktioniert
 $A-Switch-B$ funktioniert
 $A-Router-C$ funktioniert nicht, da A denkt, dass C in seinem Subnetz ist und das Paket nicht an den Router sendet
 
-![bg fit right:50%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/05_frage_1.JPG?raw=true)
+![bg fit right:50%](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/05_frage_1.JPG?raw=true)
 
 ---
 
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/05_frage_2.JPG?raw=true)
+![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/05_frage_2.JPG?raw=true)
 
 ---
 
@@ -55,7 +55,7 @@ $A-Router-C$ funktioniert nicht, da A denkt, dass C in seinem Subnetz ist und da
 
 ---
 
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/05_frage_3.JPG?raw=true)
+![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/05_frage_3.JPG?raw=true)
 
 ---
 

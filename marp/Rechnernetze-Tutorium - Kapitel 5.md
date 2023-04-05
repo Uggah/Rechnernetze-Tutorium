@@ -83,7 +83,7 @@ Link zu den Folien :arrow_down:
 
 ---
 
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/05_kabelhai.png?raw=true)
+![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/05_kabelhai.png?raw=true)
 
 ---
 
@@ -257,7 +257,7 @@ Die Subnetzmaske ist nur im lokalen Netz gültig.
 
 Du musst dir das so vorstellen. Das Telefon kennt zwar dir öffentliche IP Adresse vom VoIP Server, der Server kennt aber deine nicht. Denn im Payload steht bsp. 192.168.1.2 und die private IP Adresse ist von außen nicht erreichbar.
 
-![bg right:33% fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/05_sip.png?raw=true)
+![bg right:33% fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/05_sip.png?raw=true)
 
 ---
 

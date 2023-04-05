@@ -126,7 +126,7 @@ Ein Router leitet anhand von Metriken Daten weiter.
 
 # Routing Tabelle
 
-![bg right:70% fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/04_netstat.png?raw=true)
+![bg right:70% fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/04_netstat.png?raw=true)
 
 ---
 
@@ -266,7 +266,7 @@ Dabei wird Switch Port A and einen weiteren Port B gespiegelt. Dabei ist Port Mi
 
 # Spanning Tree Protocol
 
-![bg right:50% 90%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/04_STP.png?raw=true)
+![bg right:50% 90%](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/04_STP.png?raw=true)
 
 > Bild Quelle: https://www.networxsecurity.de/?page_id=4128
 

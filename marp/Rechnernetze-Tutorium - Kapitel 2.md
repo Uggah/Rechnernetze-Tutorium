@@ -111,7 +111,7 @@ Die verfügbare Bandbreite und die Länge des Kabels stehen in Korrelation. Übe
 
 # Twisted-Pair-Kabel Bezeichnungssystem
 
-![bg 90% right:50%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_bezeichnungssystem.jpg?raw=true)
+![bg 90% right:50%](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_bezeichnungssystem.jpg?raw=true)
 
 [Quelle elektronik-kompendium.de](https://www.elektronik-kompendium.de/sites/net/0603191.htm)
 
@@ -305,9 +305,9 @@ Von Deadlyhappen - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/i
 
 <!-- _class: lead -->
 
-![bg fit vertical](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_mono.jpeg?raw=true)
-![bg](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_stufe.jpeg?raw=true)
-![bg](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_gradient.jpeg?raw=true)
+![bg fit vertical](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_mono.jpeg?raw=true)
+![bg](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_stufe.jpeg?raw=true)
+![bg](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_gradient.jpeg?raw=true)
 
 ---
 
@@ -325,7 +325,7 @@ Von Deadlyhappen - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/i
 - das Ausgangssignal ist noch sehr gut
 - wird für Verbindungen von Gebäuden oder Etagen eingesetzt
 
-![bg contain 80% right:40%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_gradientfin.jpeg?raw=true)
+![bg contain 80% right:40%](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_gradientfin.jpeg?raw=true)
 
 ---
 
@@ -342,7 +342,7 @@ Von Deadlyhappen - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/i
 - die Brechzahl fällt zwischen Kern und Mantel scharf ab
 - wird für Verbindungskabel im Patchschrank verwendet
 
-![bg contain 80% right:40%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_stufefin.jpeg?raw=true)
+![bg contain 80% right:40%](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_stufefin.jpeg?raw=true)
 
 ---
 
@@ -358,7 +358,7 @@ Von Deadlyhappen - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/i
 - sind sehr teuer in der Herstellung
 - wird für Stadt- und Zugangsnetze optimiert
 
-![bg contain 80% right:40%](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/02_monofin.jpeg?raw=true)
+![bg contain 80% right:40%](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/02_monofin.jpeg?raw=true)
 
 ---
 

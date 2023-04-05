@@ -238,7 +238,7 @@ Die Anzahl der Hops können mit einem **Traceroute** ermittelt werden.
 
 ---
 
-![bg fit](https://github.com/blauwiggle/Rechnernetze-1-Tutorium/blob/master/marp/images/01_traceroute.jpg?raw=true)
+![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/01_traceroute.jpg?raw=true)
 
 ---
 
