@@ -22,7 +22,7 @@ Du weißt nicht wie Git funktioniert? Schau mal hier, es ist wirklich einfach: [
 
 1. Terminal öffnen
 2. `git clone https://github.com/Uggah/Rechnernetze-Tutorium.git`
-3. `cd Rechnernetze-1-Tutorium`
+3. `git checkout gh-pages`
 4. Linux: `xdg-open .`
    macOS: `open .`
    
@@ -46,6 +46,6 @@ You don't know how it works? Take a look, it's really easy: [Englisch](https://r
 
 1. Open the terminal
 2. `git clone https://github.com/Uggah/Rechnernetze-Tutorium.git`
-3. `cd Rechnernetze-1-Tutorium`
+3. `git checkout gh-pages`
 4. Linux: `xdg-open .`
    macOS: `open .`
