@@ -17,7 +17,8 @@ Link zu den Folien :arrow_down:
 
 <!--footer: "" -->
 
-1. Ist das CSMA/CD-Verfahren ein **_faires_** Zugriffsverfahren?
+0. Ein kleines Quiz vorab
+1. Was ist CSMA/CD und ist es fair?
 2. Beschreibe, wie sich bei CSMA/CD-Ethernet Distanz, Paketlänge und Bitrate
    gegenseitig beeinflussen.
 3. Wie wird die **_Taktsynchronisation_** zwischen zwei Stationen bei Ethernet gelöst?
@@ -31,139 +32,35 @@ Link zu den Folien :arrow_down:
 
 ---
 
-# Lass uns erstmal ein paar Dinge vorab klären.
+# 0. Ein kleines Quiz vorab
+## Für was stehen und für was sind die Abkürzungen zuständig?:
 
-## Wer führt Standards ein, was sind Zugriffsverfahren, was ist ein Multiplex :scream_cat:
-
----
-
-# Organistationen in der Netzwerktechnik (Standards)
-
-Es gibt etliche Organisationen, die an der Entwicklung von Standards beteilt sind.
-
-- ?
+- ITU
+- IEEE
+- IETF
+- RFC
 
 ---
 
-# Organistationen in der Netzwerktechnik (Standards)
-
-Es gibt etliche Organisationen, die an der Entwicklung von Standards beteilt sind.
-
-- IANA - Internet Assigned Numbers Authority
-- ICANN - Internet Corporation for Assigned Names and Numbers
-- IETF - Internet Engineering Task Force
-- ISO - International Organization for Standardization
-- IEEE - Institute of Electrical and Electronics Engineers
-- IEC - International Electrotechnical Commission
-- ITU - International Telecommunication Union
+- ITU: International Telecommunications Union
+  - Standards für den Telekommunikationsbereich
+- IEEE: Institute of Electrical and Elektronics Engineers
+  - Normierungen und Standardisierungen für Übertragungstechniken und Protokolle
+- IETF: Internet Engineering Task Force
+  - eine Art Forum, Erstellung von Vorschlägen für Standardisierung
+- RFC: Request for comment
+  - Anfrage bei der IETF
 
 ---
 
-- Für uns ist die IEEE hier besonders wichtig
-- [RFCs](https://www.rfc-editor.org) (Request for Comments) schlagen Standards vor (nicht alle, nur einige)
-  - IETF publiziert die RFCs
-  - die Entwicklung des Internets wird vorangetrieben
-  - die Genehmigung (als Stream bezeichnet) durchläuft verschiedene Stadien
-  - fast alle wichtigen Internet Standards sind aus RFCs entstanden
-    - [RFC 768 - UDP](https://www.rfc-editor.org/info/rfc768)
-    - [RFC 1166 - IP Adresse](https://www.rfc-editor.org/info/rfc1166)
+# 1. Was ist CSMA/CD und ist es fair?
 
----
-
-# 802.x beschäftigt sich mit lokalen Netzwerken
-
-## Wichtige IEEE 802.x Standards
-
-- 802.3 CSMA/CD
-- 802.3u Fast Ethernet
-- 802.3ab 1000 BASE-T
-- 802.11 WLAN
-
----
-
-# Zugriffsverfahren
-
----
-
-## Zentralistisch
-
-- Vermittlungsstelle organisiert Slot zur Datenübertragung
-
-## Deterministisch
-
-- Zugriff wird über Mechanismen geregelt, sodass keine Kollisionen auftreten können
-
-## Nicht-Deterministisch
-
-- Jede Station kann jederzeit zufällig senden
-- Keine Regeln beim Senden (konkurrierend), bei Kollisionen wird erneut gesendet
-
----
-
-# Was ist ein Multiplex?
-
----
-
-# Multiplexverfahren sind Methoden zur Signal- und Nachrichtenübertragung. Dabei werden mehrere Signale gebündelt und übertragen.
-
----
-
-## Raum Multiplex
-
-- Übertragunskanäle werden zur parallelen Nutzung durch mehrere Sender und Empfänger gebündelt
-  - Personen sprechen an verschiedenen Orten miteinander und stören sich bei genügend großem Abstand nicht.
-
----
-
-## Frequenz Multiplex
-
-- Die Signale werden in unterschiedliche Frequenz Bereiche getrennt
-  - Eine Hundepfeife erzeugt unhörbare Geräusche. Nebenbei hörst du einen Podcast.
-
----
-
-## Zeit Multiplex
-
-- Signale werden zeitversertzt übertragen.
-  - In der Ponyhof Schulklasse hat nur ein Sprecher gleichzeitig das Wort (asynchron). Auf der Google I/O hat jeder Redner einen Zeitslot bestimmter Länge (synchron).
-
----
-
-## Code Multiplex
-
-- Signale werden verschieden codiert
-  - Wenn mehrere Gespräche in verschiedenen Sprachen in einem Raum stattfinden, hört man seine Muttersprache heraus. Bekannte Personen erkennt man am Klang ihrer Stimme
-
----
-
-# Ethernet
-
-- asynchrones Zeit Multiplex
-- nach Bedarf
-- dezentral
-- konkurrierend
-
----
-
-# 1. Ist das CSMA/CD-Verfahren ein **_faires_** Zugriffsverfahren?
-
----
-
-![bg](https://cdn.dribbble.com/users/259812/screenshots/3131348/story_concept_800x600.jpg)
-
----
-
-# Ja.
-
-## Da niemand beim Senden bevorzugt wird.
-
-## Aber warum eigentlich?
-
+## Für was steht CSMA/CD?
+## Wie funktioniert CSMA/CD?
+## Ist CSMA/CD fair?
 ---
 
 # Für was steht CSMA/CD?
-
-# Was machen die Abkürzungen?
 
 ---
 
@@ -181,52 +78,32 @@ Wenn mehrere Stationen gleichzeitig senden, erkennen sie die Kollision
 
 ---
 
-# 2. Beschreibe, wie sich bei CSMA/CD-Ethernet Distanz, Paketlänge und Bitrate gegenseitig beeinflussen.
+# Wie funktioniert CSMA/CD?
 
 ---
 
-# Was jedoch wichtig ist, ist wie sich Distanz, Paketlänge und Bitrate gegenseitig beeinflussen.
+![bg 80% right](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/03_csmacd.png?raw=true)
 
-## Hast du eine Idee, was es damit aufsich hat?
+- Alle Komunikationspartner hören die Leitung ab
+- Ist die Leitung frei kann gesendet werden
+- Unterscheidet sich das Abgehörte Signal vom Gesendeten, gab es eine Kollision
+- Alle Komunikationspartner warten eine zufällige Zeit und es geht von vorne los
+
+---
+# Ist CSMA/CD fair?
+---
+
+# Ja.
+
+## Da niemand beim Senden bevorzugt wird.
 
 ---
 
-# Netzausdehnung und Laufzeitbudget
+## 2. Beschreibe, wie sich bei CSMA/CD-Ethernet Distanz, Paketlänge und Bitrate gegenseitig beeinflussen.
 
-## Distanz, Paketlänge und Bitrate stehen im CSMA/CD Ethernet in direktem Zusammenhang!
+![bg 80% right](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/03_csmacd.png?raw=true)
 
----
-
-## Beispiel
-
-- Übertragungsgeschwindigkeit bei Ethernet mit 10 MBit / Sekunde
-- Framelänge von 64 Byte (512 bit)
-
-## Ziel
-
-- Während des Sendens eine Kollision erkennen
-
----
-
-# :fire: Formel - Zeitraum für die Kollisionserkennung
-
-# $t_{frame}$ = $\frac{n\: [bit]}{b\: [\frac{bit}{s}]}$
-
-# $t_{frame}$ = $\frac{(64 * 8)\: bit}{10*10^6\frac{bit}{s}} = 51,2\: µs$
-
-## Das bedeutet, dass innerhalb von 51,2 µs die Kollision bei 10 MBit / Sekunde und einer Frame Größe von 64 Byte erkannt werden muss.
-
----
-
-# Netzausdehnung und Laufzeitbudget
-
-| Geschwindigkeit |       Typ        | Ausdehnung in Metern |     Zeit |
-| --------------: | :--------------: | -------------------: | -------: |
-|         10 MBit |     Ethernet     |       \* 5.000 Meter |  51,2 µs |
-|        100 MBit |  Fast-Ethernet   |            500 Meter |  5,12 µs |
-|      1.000 MBit | Gigabit-Ethernet |             50 Meter | 0,512 µs |
-
-## \* Kabeleigenschaften wie Dämpfung, Schirmung und Verarbeitungszeit begrenzen die maximale Ausdehnung auf 3.000 Meter.
+![80% left](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/03_csmacd2.png?raw=true)
 
 ---
 
@@ -354,8 +231,6 @@ Link zum nachlesen: http://www.elektronik-kompendium.de/sites/kom/0301281.htm
 
 # Flow Control (Flusssteuerung)
 
-- ?
-
 ---
 
 # Flow Control (Flusssteuerung)
@@ -369,8 +244,6 @@ Link zum nachlesen: http://www.elektronik-kompendium.de/sites/kom/0301281.htm
 ---
 
 # Link Aggregation
-
-- ?
 
 ---
 
