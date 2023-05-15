@@ -243,11 +243,7 @@
 <li>Trennung von Netzsegmenten (Subnetze)</li>
 <li>Aufbau und Aktualisierung der Netztopologie</li>
 <li>Wegesuche</li>
-<li>Fragmentierung bei IPv4 (Anpassung der Daten an max. zulässige Layer-2 Paketlänge)
-<ul>
-<li><strong><em>Wie hoch ist eine sehr bekannte MTU?</em></strong></li>
-</ul>
-</li>
+<li>Fragmentierung bei IPv4 (Anpassung der Daten an max. zulässige Layer-2 Paketlänge)</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-marpit-pagination="15" data-marpit-pagination-total="47" style="--paginate:true;--marpit-advanced-background-split:70%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/04_netstat.png?raw=true&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="30%" height="720"><section id="15" data-paginate="true" data-marpit-pagination="15" data-marpit-pagination-total="47" style="--paginate:true;--marpit-advanced-background-split:70%;" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
@@ -396,17 +392,19 @@
 </blockquote>
 </section>
 </foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-marpit-pagination="30" data-marpit-pagination-total="47" style="" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-paginate="true" data-marpit-pagination="31" data-marpit-pagination-total="47" style="--paginate:true;">
-<h1 id="port-zust%C3%A4nde-stp">Port Zustände STP</h1>
-<h2 id="blocked">Blocked</h2>
-<p>Alle Ports beginnen im Blocked Modus um Bridging Schleifen zu verhindern. Der Port bleibt im Blocked Modus, wenn STA bestimmt, dass es zur Root Bridge einen besseren Weg durch einen anderen Port gibt</p>
+<h1 id="ablauf-stp">Ablauf STP</h1>
+<h2 id="voraussetzungen">Voraussetzungen</h2>
+<h3 id="1-jede-br%C3%BCcke-reagiert-auf-spanning-tree--multicast-adresse">1. jede Brücke reagiert auf Spanning-Tree- Multicast-Adresse</h3>
+<h3 id="2-jede-br%C3%BCcke-hat-eindeutigen-id-2-byte-priority-und-6-byte-mac">2. jede Brücke hat eindeutigen ID (2 Byte Priority und 6 Byte MAC)</h3>
+<h3 id="3-jeder-port-hat-eindeutige-id">3. jeder Port hat eindeutige ID</h3>
+<h3 id="4-jedem-port-kann-eine-relative-priorit%C3%A4t-bez%C3%BCglich-aller-anderen-ports-derselben-br%C3%BCcke-zugewiesen-werden-zus%C3%A4tzlich-pfadkosten-pro-port-m%C3%B6glich">4. jedem Port kann eine relative Priorität bezüglich aller anderen Ports derselben Brücke zugewiesen werden. Zusätzlich Pfadkosten pro Port möglich</h3>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" data-paginate="true" data-marpit-pagination="32" data-marpit-pagination-total="47" style="--paginate:true;">
-<h2 id="listenlearn">Listen/Learn</h2>
-<p>Der Port hört nur zu, versendet oder empfängt aber keine Nutzdaten. Nachrichten von anderen Ports werden aktiv erkannt und weiter verarbeitet.</p>
-<h2 id="forward">Forward</h2>
-<p>In diesem Stadum kann der Port Daten senden und empfangen. Nicht zulässig, wenn noch überflüssige Links vorhanden oder der Weg noch nicht eindeutig ist.</p>
-<h2 id="disabled">Disabled</h2>
-<p>Der Port ist gesperrt.</p>
+<h2 id="ablauf">Ablauf</h2>
+<h3 id="1-bestimmen-der-root-bridge--bridge-mit-der-h%C3%B6chsten-priorit%C3%A4t-niedrigster-priorit%C3%A4tswert-und-mac-adresse">1. Bestimmen der Root-Bridge = Bridge mit der höchsten Priorität (=niedrigster Prioritätswert und MAC-Adresse)</h3>
+<h3 id="2-root-bildet-baum-zu-allen-bridges-und-netzsegmenten">2. Root bildet Baum zu allen Bridges und Netzsegmenten</h3>
+<h3 id="3-bestimmen-des-root-port-an-jeder-bridge---port-zur-root-bridge-mit-den-geringsten-wegekosten">3. Bestimmen des Root-Port an jeder Bridge -&gt; Port zur Root-Bridge mit den geringsten Wegekosten</h3>
+<h3 id="4-bestimmen-der-designierten-bridge-und-des-designierten-ports-pro-lan-segment--bridgeport-mit-den-geringsten-wegkosten-von-einem-lan-zur-root-bridge">4. Bestimmen der designierten Bridge und des designierten Ports pro LAN-Segment-&gt; Bridge/Port mit den geringsten Wegkosten von einem LAN zur Root-Bridge</h3>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-paginate="true" data-marpit-pagination="33" data-marpit-pagination-total="47" style="--paginate:true;">
 <h1 id="3-deep-packet-inspection-dpi-argumentiere-f%C3%BCr-und-gegen-das-verfahren">3. <strong><em>Deep Packet Inspection</em></strong> (DPI). Argumentiere für und gegen das Verfahren.</h1>
