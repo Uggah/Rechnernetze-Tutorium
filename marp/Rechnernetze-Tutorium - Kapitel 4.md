@@ -120,7 +120,6 @@ Ein Router leitet anhand von Metriken Daten weiter.
 - Aufbau und Aktualisierung der Netztopologie
 - Wegesuche
 - Fragmentierung bei IPv4 (Anpassung der Daten an max. zulässige Layer-2 Paketlänge)
-  - **_Wie hoch ist eine sehr bekannte MTU?_**
 
 ---
 
@@ -272,25 +271,23 @@ Dabei wird Switch Port A and einen weiteren Port B gespiegelt. Dabei ist Port Mi
 
 ---
 
-# Port Zustände STP
+# Ablauf STP
 
-## Blocked
+## Voraussetzungen
 
-Alle Ports beginnen im Blocked Modus um Bridging Schleifen zu verhindern. Der Port bleibt im Blocked Modus, wenn STA bestimmt, dass es zur Root Bridge einen besseren Weg durch einen anderen Port gibt
+### 1. jede Brücke reagiert auf Spanning-Tree- Multicast-Adresse
+### 2. jede Brücke hat eindeutigen ID (2 Byte Priority und 6 Byte MAC)
+### 3. jeder Port hat eindeutige ID
+### 4. jedem Port kann eine relative Priorität bezüglich aller anderen Ports derselben Brücke zugewiesen werden. Zusätzlich Pfadkosten pro Port möglich
 
 ---
 
-## Listen/Learn
+## Ablauf
 
-Der Port hört nur zu, versendet oder empfängt aber keine Nutzdaten. Nachrichten von anderen Ports werden aktiv erkannt und weiter verarbeitet.
-
-## Forward
-
-In diesem Stadum kann der Port Daten senden und empfangen. Nicht zulässig, wenn noch überflüssige Links vorhanden oder der Weg noch nicht eindeutig ist.
-
-## Disabled
-
-Der Port ist gesperrt.
+### 1. Bestimmen der Root-Bridge = Bridge mit der höchsten Priorität (=niedrigster Prioritätswert und MAC-Adresse)
+### 2. Root bildet Baum zu allen Bridges und Netzsegmenten
+### 3. Bestimmen des Root-Port an jeder Bridge -> Port zur Root-Bridge mit den geringsten Wegekosten
+### 4. Bestimmen der designierten Bridge und des designierten Ports pro LAN-Segment-> Bridge/Port mit den geringsten Wegkosten von einem LAN zur Root-Bridge
 
 ---
 
