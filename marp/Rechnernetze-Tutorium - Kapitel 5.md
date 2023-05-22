@@ -70,6 +70,9 @@ Link zu den Folien :arrow_down:
 ---
 
 # 1. Erläutere die Aufgaben und Funktionsweise von ARP.
+## 1.1 Für Was steht ARP?
+## 1.2 Wo kommt ARP zum Einsatz?
+## 1.3 Wie funktioniert ARP?
 
 ---
 
@@ -187,20 +190,22 @@ Die Broadcast Adresse bekommt man durch die `ODER (OR)` Verknüpfung von IP Adre
 | =                              |   192.168.5. |     11101111 |
 | Broadcast Adresse              |   192.168.5. |          239 |
 
+## Broadcast Adresse <=> letzte Subnetzadresse
 ---
 
 # Warum muss die Subnetz Maske im Internet nicht mit übertragen werden?
 
-## Broadcast Adresse <=> letzte Subnetzadresse
-
-Die Subnetzmaske ist nur im lokalen Netz gültig.
-
-> UPDATE :exclamation:
-> Die SN Maske des Ziels spielt schlicht und einfach keine Rolle für die Funktionsweise von IP
+Die SN Maske des Ziels spielt schlicht und einfach keine Rolle für die Funktionsweise von IP
 
 ---
 
 # 5. Erläutere
+
+- NAT
+- PAT
+- Full Cone
+- Restricted Cone
+- Port Restricted Cone
 
 ---
 
@@ -345,9 +350,7 @@ Von IP_Address_Match.png: Baccala@freesoft.orgderivative work: Zapyon (talk) - I
 
 ---
 
-# Hausaufgaben :smile:
-
-## Fleißig üben!
+# Tipp zum üben:
 
 Zum Beispiel hier: http://www.eex-online.de/informatik.php bei Netzwerke auf [CIDR](http://www.eex-online.de/informatik/cidr.html) und [VLSM](http://www.eex-online.de/informatik/vlsm.html) klicken. Es generiert dir Aufgaben, zeigt dir den Lösungsweg und die Lösung auf.
 
