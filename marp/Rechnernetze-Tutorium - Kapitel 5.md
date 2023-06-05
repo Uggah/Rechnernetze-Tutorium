@@ -352,7 +352,7 @@ Von IP_Address_Match.png: Baccala@freesoft.orgderivative work: Zapyon (talk) - I
 
 # Tipp zum üben:
 
-Zum Beispiel hier: http://www.eex-online.de/informatik.php bei Netzwerke auf [CIDR](http://www.eex-online.de/informatik/cidr.html) und [VLSM](http://www.eex-online.de/informatik/vlsm.html) klicken. Es generiert dir Aufgaben, zeigt dir den Lösungsweg und die Lösung auf.
+Zum Beispiel hier: https://www.ww-a.de/eex-online/informatik.php bei Netzwerke auf CIDR und VLSM klicken. Es generiert dir Aufgaben, zeigt dir den Lösungsweg und die Lösung auf.
 
 ---
 
