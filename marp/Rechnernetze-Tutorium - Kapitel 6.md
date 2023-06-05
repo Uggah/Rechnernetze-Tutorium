@@ -33,8 +33,7 @@ Link zu den Folien :arrow_down:
    - Paketverlust und Paketverdopplung
    - fehlerhaft adressierte Ports
 9. Was versteht man unter der TCP Flusssteuerung?
-10. Erläutere das in der Vorlesung vorgestellte TCP Zustandsdiagramm.
-11. Markiere die Felder des IP und TCP Header, die nach erfolgreichem Verbindungsaufbau während der Phase der Datenübertragung über das Internet nicht konstant bleiben.
+10. Markiere die Felder des IP und TCP Header, die nach erfolgreichem Verbindungsaufbau während der Phase der Datenübertragung über das Internet nicht konstant bleiben.
 
 ---
 
@@ -360,7 +359,12 @@ Kombination aus IP Adresse und Port.
 
 # 7. Beschreibe den Einsatz der TCP Flags.
 
-Lass uns mal eine Tabelle füllen.
+- SYN (Synchronize)
+- ACK (Acknowledge)
+- FIN (Final)
+- RST (Reset)
+- URG (Urgent)
+- PSH (Push)
 
 ---
 
@@ -410,29 +414,8 @@ Lass uns mal eine Tabelle füllen.
 
 ---
 
-# 10. Erläutere das in der Vorlesung vorgestellte TCP Zustanddiagramm.
 
----
-
-![bg fit](https://github.com/Uggah/Rechnernetze-Tutorium/blob/master/marp/images/06_diagramm.png?raw=true)
-
----
-
-- **CLOSED**: Startzustand
-- **LISTEN**: Server wartet auf Verbindungswünsche
-- **SYN-RCVD**: Server hat Verbindungswunsch empfangen
-- **SYN-SENT**: Client hat Verbindungsaufbau gestartet
-- **ESTABLISHED**: Verbindung ist etabliert und betriebsbereit
-- **FIN-WAIT-1**: Server/Client hat den Verbindungsabbau eingeleitet
-- **FIN-WAIT-2**: Client/Server hat den Verbindungsabbau bestätigt
-- **TIMED-WAIT**: Warten bis alle Segmente verschwunden sind
-- **CLOSING**: Endpunkte beenden die Verbindung gleichzeitig
-- **CLOSE-WAIT**: Entferntes System hat einen Verbindungsabbau gestartet
-- **LAST-ACK**: Warten bis alle Segmente verschwunden sind
-
----
-
-# 11. Nenne die Felder des IP und TCP Header, die nach erfolgreichem Verbindungsaufbau während der Phase der Datenübertragung über das Internet nicht konstant bleiben.
+# 10. Nenne die Felder des IP und TCP Header, die nach erfolgreichem Verbindungsaufbau während der Phase der Datenübertragung über das Internet nicht konstant bleiben.
 
 ---
 
